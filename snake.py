@@ -23,10 +23,10 @@ CELL_SIZE    = 40                     # 每格像素
 WINDOW_SIZE  = GRID_COUNT * CELL_SIZE # 800×800
 FPS          = 60
 
-INITIAL_SPEED    = 4.0                # 初始速度（格/秒）
+INITIAL_SPEED    = 5.0                # 初始速度（格/秒）
 SPEED_STEP       = 0.5                # 每次加速步长
-MAX_SPEED        = 8.0                # 最大速度 = 初始 × 2
-FOODS_PER_LEVEL  = 5                  # 每吃 N 个食物升速一次
+MAX_SPEED        = 12.0                # 最大速度 = 初始 × 2
+FOODS_PER_LEVEL  = 4                  # 每吃 N 个食物升速一次
 SCORE_PER_FOOD   = 10                 # 每个食物得分
 
 # 方向向量（x, y）
